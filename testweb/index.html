@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/main.css">
+	
+	<title>try</title>
+</head>
+<body>
+	<fieldset>
+
+		<h4>Mes options: mettre en exergue le paragraphe au click <input type="checkbox" name="click" id="check" > Taille de l'écriture : <input type="number" name="firstbox" id="taille">
+police <select id="font"><option>Garamond</option><option>Verdana</option><option>Times new roman</option></select> 
+<form>
+	choisir la position de votre siteweb:
+<input onmouseover="myfun()" type="radio" name="radio" id="left">left
+
+<input onmouseover="myfun()" type="radio" name="radio" id="right">right
+
+<input onmouseover="myfun()" type="radio" name="radio" id="center">center
+<button type="button" onclick=" myfun()"> Submit </button>   
+</h4>
+</form>
+
+</fieldset>
+<div id="espace"></div>
+<fieldset>
+	<h4 id="par1" onmouseover="myFunction('#par1')">Bonjour paragraphe 1<a onclick="myFn()" href="https://www.google.co.uk/">GOOGLE</a></h4>
+	<h4 id="par2"onmouseover="myFunction('#par2')">Bonjour paragraphe 2<a onclick="myFn()" href="https://www.w3schools.com/">W3SCHOOL</a></h4>
+	<form>
+
+	<h4 id="par3"onmouseover="myFunction('#par3')">Pseudo:
+			<input type="text" name="pseudo" placeholder="Pseudo" pattern="[a-z]{1-30}$">*le pseudo	ne doit contenir que des lettres alphabétiques miniscules ou des chifres</h4>
+	<h4 id="par4" onmouseover="myFunction('#par4')">Email:
+	<input type="Email" name="email" placeholder="Email"></h4>
+	<h4 id="par5" onmouseover="myFunction('#par5')">Code Postal:
+	<input type="number" name="zip" placeholder="Code Postal" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"></h4>
+	
+	<label id="commentaire" onmouseover="myFunction('#commentaire')" for ="comment"> <h4>Votre commentaire :</h4></label>
+    <textarea name="commentaire" cols ="50" rows="5" placeholder="votre commentaire"></textarea><br>
+		<button type="submit">envoyer</button>
+	<button type="reset">reset</button>
+	    </form>
+    </h4>
+</fieldset>
+<script src="JavaScript/main.js"></script>
+</body>
+</html>

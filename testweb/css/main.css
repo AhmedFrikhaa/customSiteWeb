@@ -1,0 +1,11 @@
+fieldset{
+	background-color: gray;
+	box-shadow: 2px 5px ;
+}
+#espace{
+	margin-top: 2%;
+}
+
+body{
+	font-family: 'Courier New', Courier, monospace;
+	}
